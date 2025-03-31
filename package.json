@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Modern fullstack monorepo with Express backend and Angular frontend",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "npm@10.7.0"
+}
